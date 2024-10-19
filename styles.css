@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Container to hold both sections */
+.container {
+    display: flex; /* Use flexbox to align children horizontally */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+/* Left section for login */
+.login-section {
+    flex: 1; /* Takes up 50% of the space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Optional: Add a translucent background */
+    padding: 20px;
+}
+
+/* Login container styling */
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width for the login box */
+    max-width: 400px; /* Optional: Max width for the login box */
+}
+
+/* Right section for image */
+.image-section {
+    flex: 1; /* Takes up the other 50% of the space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure the image fills the section without overflow */
+}
+
+/* Image styling */
+.image-section img {
+    width: 100%; /* Full width of the right section */
+    height: 100%; /* Full height of the right section */
+    object-fit: cover; /* Ensure the image covers the entire section while maintaining its aspect ratio */
+}
+
+/* Styling for the input groups */
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
