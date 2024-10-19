@@ -59,3 +59,12 @@ Games for various problems to arouse relaxations
 Book recommendations to refresh the brain
 Soften music with scientifically backed frequencies
 Updates with new and regular materials
+
+
+CONTRIBUTORS:
+https://github.com/kptanuja?tab=repositories
+https://github.com/VasaviVarnika
+https://github.com/PRANATHI-prog
+https://github.com/Shravani8277
+
+upload demo video for application
