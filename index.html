@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Login Page with Chatbot</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
@@ -31,6 +31,21 @@
             <img src="start.jpg" alt="Login Image">
         </div>
     </div>
+
+    <!-- Chatbot Button -->
+    <div id="chatbot">
+        <button id="chatbotButton" onclick="toggleChatbot()">💬 Chat with us</button>
+        <div id="chatbox" class="hidden">
+            <div id="chatbox-header">
+                <span>Chatbot</span>
+                <button id="closeChatbot" onclick="toggleChatbot()">x</button>
+            </div>
+            <div id="chatbox-content"></div>
+            <input type="text" id="chatInput" placeholder="Type a message..." onkeydown="handleInput(event)">
+            <button id="sendMessage" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
